@@ -1,0 +1,42 @@
+.SearchControl {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.SearchControl .SearchControl-row {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.SearchControl .SearchControl-row label {
+  min-width: 130px;
+}
+
+.SearchControl .SearchControl-row input {
+  width: 300px;
+  height: 20px;
+}
+
+.SearchControl .SearchControl-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.SearchControl .SearchControl-buttons button {
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 6rem;
+  transition: all 0.1s ease-in-out;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.2);
+}
+.SearchControl .SearchControl-buttons button:first-child {
+  background-color: rgb(132, 180, 243);
+  font-weight: bold;
+}
+.SearchControl .SearchControl-buttons button:hover {
+  transform: scale(1.08);
+}
